@@ -1,13 +1,17 @@
 # speech_interaction_demo
-test_demo
+```
+在windows10上运行的内容。
+Python版本：Python3.6.2。
+修改test_demo/main.py中的百度key/图灵key，就可以用。
+```
 
 #### 整体的实现流程
 
 1. 语音输入。
 2. 语音翻译成文字。
 3. 聊天回应文字。
-4. 将文字合成语音
-5. 输出语音
+4. 将文字合成语音。
+5. 输出语音。
 
 #### 实现方式
 

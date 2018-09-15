@@ -29,9 +29,11 @@ print(answer)
 
 
 tuling_answer_path = 'tuling-answer.mp3'  # 语音存放的位置
+
 # 将文字转化为语音
 text = answer['text']
 print("text===", text)
 compound_speech.text2voice(APP_ID, API_KEY, SECRET_KEY, answer['text'], tuling_answer_path)
+
 # 播放图灵回答的内容
 output_redio.speak(tuling_answer_path)

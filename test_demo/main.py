@@ -2,9 +2,9 @@
 # @Time     :2018/9/4
 # @Author   :qpf
 
-from test_demo import input_record, recognition_speech, tuling_robot
+import input_record, recognition_speech, tuling_robot
 
-from test_demo import compound_speech, output_redio
+import compound_speech, output_radio
 
 # 存放的文件名称
 file_path = "record-audio.wav"
@@ -36,4 +36,4 @@ print("text===", text)
 compound_speech.text2voice(APP_ID, API_KEY, SECRET_KEY, answer['text'], tuling_answer_path)
 
 # 播放图灵回答的内容
-output_redio.speak(tuling_answer_path)
+output_radio.speak(tuling_answer_path)
